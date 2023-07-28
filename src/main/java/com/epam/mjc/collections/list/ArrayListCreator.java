@@ -14,7 +14,6 @@ public class ArrayListCreator {
                 finalArray.add(sourceList.get(i));
             }
         }
-        System.out.println(finalArray);
 
         return finalArray;
     }
