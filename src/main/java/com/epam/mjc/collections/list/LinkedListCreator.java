@@ -11,10 +11,10 @@ public class LinkedListCreator {
 
         for (Integer num : sourceList) {
             if (num % 2 == 0) {
-                n.addFirst(num);
+                n.addLast(num);
             }
             else {
-                n.addLast(num);
+                n.addFirst(num);
             }
         }
         return n;
